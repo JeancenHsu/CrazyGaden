@@ -5,6 +5,6 @@ A small html5 game designed by js canvas
 
 ###项目图片素材由南京晓庄学院美术学院14级动画专业陶香玲等绘制
 
-**游戏体验连接：(https://jeancenhsu.github.io/CrazyGarden)**
+**游戏体验连接：https://jeancenhsu.github.io/CrazyGarden**
 
-!(https://github.com/JeancenHsu/CrazyGarden/blob/master/img/start.jpg)
+![Image text](https://github.com/JeancenHsu/CrazyGarden/blob/master/img/start.jpg)
