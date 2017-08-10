@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>疯狂菜园 Crazy~</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    
+	<div class="game" id="game">
+        <div class="start" id="start">
+            <input type="button" value="火辣红椒" id="start_btn1" onclick="gstart()" />
+            <input type="button" value="蠢萌土豆" id="start_btn2" onclick="gstart()" />
+            <input type="button" value="傲娇青菜" id="start_btn3" onclick="gstart()" />
+        </div>
+        
+	    <div class="left" id="left">
+	        <a>剩余生命值：</a>
+	        <input type="text" name="txt1" id="txt1" value="4" readonly="readonly" /> 
+	       
+	        <a>击败敌人数：</a>
+	        <input type="text" name="txt2" id="txt2" value="0" readonly="readonly" />
+	    </div>
+	    
+	    <div class="over" id="over">
+	        <img src="img/gameover.jpg" width="1024" height="768">
+	        <div class="result" id="result" >
+		        <a>您的最终成绩是：</a>
+		        <input type="text" name="txt3" id="txt3" readonly="readonly" />
+		    </div>
+		    <div class="replay">
+		    	<input type="button" name="replay_btn" id="replay_btn" value="" onclick="location.reload()"/>
+	    	</div>
+		</div>
+	    
+	    
+	    <canvas id="can" width="1024" height="768"></canvas>
+	    <div class="foot" id="foot">
+	        <a>键盘“↑”“↓”“←”“→”键移动，空格键发射炮弹</a>
+	    </div>
+	</div>
+</body>
+
+</html>
+
+<script type="text/javascript" src="js/jquery-1.7.min.js" ></script>
+<script type="text/javascript" src="js/css.js" ></script>
+<script type="text/javascript" src="js/game.js" ></script>
+	

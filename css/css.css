@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.game{
+	width:1024px;
+	height:768px;
+	margin: 0 auto;
+}
+
+.start{
+    width:1025px;
+    height:768px;
+    margin:0 auto;
+    position: absolute;
+    opacity: 1;
+    background-image: url(../img/start.jpg);
+    z-index: 100;
+    display: block;
+}
+
+#start_btn1{
+	width:200px;
+	height: 60px;
+	position: absolute;
+	top:440px;
+	left:400px;
+	right:262px;
+	float: left;
+	background: none;
+	/*background-color: cornflowerblue;*/
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 18px;
+	color: white;
+}
+#start_btn2{
+	width:200px;
+	height: 60px;
+	position: absolute;
+	top:550px;
+	left:440px;
+	right:262px;
+	float: left;
+	/*background-color:lightgreen;*/
+	background: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 18px;
+	color: white;
+}
+#start_btn3{
+	width:200px;
+	height: 60px;
+	position: absolute;
+	top:660px;
+	left:420px;
+	right:262px;
+	float: left;
+	/*background-color: mediumvioletred;*/
+	background: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 18px;
+	color: white;
+}
+
+.left{
+    position:absolute;
+ /*   left:;*/
+    top:5px;
+    width:400px;
+    height:10px;
+    font-size: 20px;
+    color: white;
+}
+
+.left a{
+    display: block;
+    float: left;
+    /*background-color: red;*/
+}
+
+.left input{
+    width:180px;
+    background: transparent;
+    border: none;
+    float: left;
+    font-size: 20px;
+    color: white;
+    /*background-color: yellow;*/
+}
+
+.foot{
+    width: 600px;
+    height:40px;
+    position: absolute;
+    top: 710px;
+    
+    text-align: center;
+	/*background-color: yellow;*/
+}
+
+.foot a{
+    font-size: 24px;
+    color: white;
+}
+
+.over{
+    width:1025px;
+    height:768px;
+    margin:0 auto;
+    position: absolute;
+    display: none;
+    opacity: 1;
+}
+
+
+.result{
+    position: absolute;
+    margin-right: 1px;;
+    top:100px;
+    right: 0px;;
+    width:320px;
+    height:40px;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+}
+
+.result a{
+    display: block;
+    float: left;
+    /*background-color: red;*/
+}
+
+.result input{
+    width:70px;
+    background: transparent;
+    border: none;
+    float: left;
+    font-size: 30px;
+    color: white;
+    /*background-color: yellow;*/
+}
+
+.replay{
+	width:350px;
+	height:150px;
+	position: absolute;
+	top: 300px;
+	left:350px;
+}
+
+.replay input{
+	width:350px;
+	height:150px;
+	background: none;
+	border: none;
+}
+
+.replay input:hover{
+	cursor: pointer;
+}
